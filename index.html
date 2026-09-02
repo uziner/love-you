@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="loveSound" src="asset/sound.mp3" loop></audio>
+    <div id="step1" class="window-container">
+        <div class="window">
+            <h1>Do you love me?</h1>
+            <div class="buttons">
+                <button id="btn-yes-1">Yes</button>
+                <button id="btn-no-1">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="step2" class="window-container hidden">
+        <div class="window">
+            <h1>Really?</h1>
+            <div class="buttons">
+                <button id="btn-yes-2">Yes</button>
+                <button id="btn-no-2">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="step3" class="window-container hidden">
+        <div class="window">
+            <h1 class="small-text">yaudah kalau kamu nggak suka, but I just want to say</h1>
+            <div class="buttons">
+                <button id="btn-continue" class="continue-btn">Continue ➤ .....</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="finalStep" class="final-container hidden">
+        <div class="bg-text" id="bgTextContainer"></div>
+        <div class="glowing-content">
+            <h1>LOVE YOU</h1>
+            <div class="heart">🤍</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
